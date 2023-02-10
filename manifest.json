@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "ReadableStream bug reproduction",
+  "version": "0.0.1",
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentscript.js"]
+    }
+  ]
+}
